@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C4B627424E306680017466F /* RewardsCard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C4B627324E306680017466F /* RewardsCard.cpp */; };
+		597996DE2454AD650083B6E4 /* Screen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 597996DC2454AD650083B6E4 /* Screen.cpp */; };
+		597996E12454C5A60083B6E4 /* PayTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 597996DF2454C5A60083B6E4 /* PayTable.cpp */; };
+		598B03961D3202D200BDD31B /* RandomNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 598B03941D3202D200BDD31B /* RandomNumber.cpp */; };
+		598B03991D3203D400BDD31B /* Bank.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 598B03971D3203D400BDD31B /* Bank.cpp */; };
+		598B039C1D3204A700BDD31B /* SlotMachine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 598B039A1D3204A700BDD31B /* SlotMachine.cpp */; };
+		59D19C8A1D25801E00CF9B73 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 59D19C891D25801E00CF9B73 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		59D19C841D25801E00CF9B73 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3C4B627224E306520017466F /* RewardsCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RewardsCard.h; sourceTree = "<group>"; };
+		3C4B627324E306680017466F /* RewardsCard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RewardsCard.cpp; sourceTree = "<group>"; };
+		597996DC2454AD650083B6E4 /* Screen.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Screen.cpp; sourceTree = "<group>"; };
+		597996DD2454AD650083B6E4 /* Screen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Screen.h; sourceTree = "<group>"; };
+		597996DF2454C5A60083B6E4 /* PayTable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PayTable.cpp; sourceTree = "<group>"; };
+		597996E02454C5A60083B6E4 /* PayTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PayTable.h; sourceTree = "<group>"; };
+		598B03941D3202D200BDD31B /* RandomNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RandomNumber.cpp; sourceTree = "<group>"; };
+		598B03951D3202D200BDD31B /* RandomNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomNumber.h; sourceTree = "<group>"; };
+		598B03971D3203D400BDD31B /* Bank.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bank.cpp; sourceTree = "<group>"; };
+		598B03981D3203D400BDD31B /* Bank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bank.h; sourceTree = "<group>"; };
+		598B039A1D3204A700BDD31B /* SlotMachine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SlotMachine.cpp; sourceTree = "<group>"; };
+		598B039B1D3204A700BDD31B /* SlotMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlotMachine.h; sourceTree = "<group>"; };
+		59D19C861D25801E00CF9B73 /* SlotMachine */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SlotMachine; sourceTree = BUILT_PRODUCTS_DIR; };
+		59D19C891D25801E00CF9B73 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59D19C831D25801E00CF9B73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59D19C7D1D25801E00CF9B73 = {
+			isa = PBXGroup;
+			children = (
+				59D19C881D25801E00CF9B73 /* SlotMachine */,
+				59D19C871D25801E00CF9B73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59D19C871D25801E00CF9B73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59D19C861D25801E00CF9B73 /* SlotMachine */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59D19C881D25801E00CF9B73 /* SlotMachine */ = {
+			isa = PBXGroup;
+			children = (
+				59D19C891D25801E00CF9B73 /* main.cpp */,
+				598B039A1D3204A700BDD31B /* SlotMachine.cpp */,
+				598B039B1D3204A700BDD31B /* SlotMachine.h */,
+				598B03971D3203D400BDD31B /* Bank.cpp */,
+				598B03981D3203D400BDD31B /* Bank.h */,
+				598B03941D3202D200BDD31B /* RandomNumber.cpp */,
+				598B03951D3202D200BDD31B /* RandomNumber.h */,
+				597996DC2454AD650083B6E4 /* Screen.cpp */,
+				597996DD2454AD650083B6E4 /* Screen.h */,
+				597996DF2454C5A60083B6E4 /* PayTable.cpp */,
+				597996E02454C5A60083B6E4 /* PayTable.h */,
+				3C4B627224E306520017466F /* RewardsCard.h */,
+				3C4B627324E306680017466F /* RewardsCard.cpp */,
+			);
+			path = SlotMachine;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59D19C851D25801E00CF9B73 /* SlotMachine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59D19C8D1D25801E00CF9B73 /* Build configuration list for PBXNativeTarget "SlotMachine" */;
+			buildPhases = (
+				59D19C821D25801E00CF9B73 /* Sources */,
+				59D19C831D25801E00CF9B73 /* Frameworks */,
+				59D19C841D25801E00CF9B73 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlotMachine;
+			productName = SlotMachine;
+			productReference = 59D19C861D25801E00CF9B73 /* SlotMachine */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59D19C7E1D25801E00CF9B73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Howard Stahl";
+				TargetAttributes = {
+					59D19C851D25801E00CF9B73 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 59D19C811D25801E00CF9B73 /* Build configuration list for PBXProject "SlotMachine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59D19C7D1D25801E00CF9B73;
+			productRefGroup = 59D19C871D25801E00CF9B73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59D19C851D25801E00CF9B73 /* SlotMachine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59D19C821D25801E00CF9B73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				597996DE2454AD650083B6E4 /* Screen.cpp in Sources */,
+				598B03991D3203D400BDD31B /* Bank.cpp in Sources */,
+				59D19C8A1D25801E00CF9B73 /* main.cpp in Sources */,
+				597996E12454C5A60083B6E4 /* PayTable.cpp in Sources */,
+				598B03961D3202D200BDD31B /* RandomNumber.cpp in Sources */,
+				3C4B627424E306680017466F /* RewardsCard.cpp in Sources */,
+				598B039C1D3204A700BDD31B /* SlotMachine.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		59D19C8B1D25801E00CF9B73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		59D19C8C1D25801E00CF9B73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		59D19C8E1D25801E00CF9B73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		59D19C8F1D25801E00CF9B73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59D19C811D25801E00CF9B73 /* Build configuration list for PBXProject "SlotMachine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59D19C8B1D25801E00CF9B73 /* Debug */,
+				59D19C8C1D25801E00CF9B73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59D19C8D1D25801E00CF9B73 /* Build configuration list for PBXNativeTarget "SlotMachine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59D19C8E1D25801E00CF9B73 /* Debug */,
+				59D19C8F1D25801E00CF9B73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59D19C7E1D25801E00CF9B73 /* Project object */;
+}
